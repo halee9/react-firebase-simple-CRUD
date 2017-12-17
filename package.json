@@ -1,0 +1,37 @@
+{
+  "name": "hs-react-form",
+  "version": "0.0.1",
+  "description": "React form",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "input-format": "^0.1.15",
+    "libphonenumber-js": "^0.4.44",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Ha Lee",
+    "email": "halee9@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7"
+  }
+}
